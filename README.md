@@ -1,16 +1,16 @@
 ## JWT Auth
 
-You sign a value token( normally object literal) using cryptography and saves the entire token in a cookie or a local storage and sends it back as an header every request to authenticate a user.
+Bascally the Idea is that You sign a value token( normally object literal) using cryptography and saves the entire token in a cookie or a local storage and sends it back as an header every request to authorize previously autheticated user.
 
-Cannot be revoked from the server side, get’s revokes when it expires
+Cannot be revoked from the server side, it automatically get’s revokes when it expires
 
 Less Lookup cost per request, as the token is signed cryptographically with a key, so can look up the needed token with an algorithm without having to make further API calls to the database.
 
-Horizontally Scaleable: Any server with the secret key can verify the incoming token.
+Which means it's Horizontally Scaleable: Any server with the secret key can verify the incoming token.
 
 ---
 
-### ** some useful references **
+## _some useful references_
 
 - [Node.js API Authentication With JWT](https://www.youtube.com/watch?v=7nafaH9SddU).
 - [Different ways in which JWTs can be useful](https://www.youtube.com/watch?v=7Q17ubqLfaM).
