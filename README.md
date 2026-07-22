@@ -17,4 +17,3 @@ Horizontally Scaleable: Any server with the secret key can verify the incoming t
 - [A Practical Guide for JWT Authentication Using Node.js and Express](https://web.archive.org/web/20230207144457/https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/).
 - [Implement JWT autherization with EXPRESS + PassportJS Framework.](https://paulallies.medium.com/stateless-auth-with-express-passport-jwt-7a55ffae0a5c).
 - [Some arguments on Why JWT SUCKS ASSS!](https://www.youtube.com/watch?v=JdGOb7AxUo0).
--
